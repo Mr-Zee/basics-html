@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-image: url(/image/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.nav{
+    /* height: 100px; */
+    
+}
+.menu{
+    padding: 20px;
+    display: block;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 0, 0.329);
+
+}
+
+li {
+    padding: 40px;
+    display: inline;
+    font-size: 22px;
+    /* background: #000; */
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.logo{
+    padding-left: 50px;
+    
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+}
