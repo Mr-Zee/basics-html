@@ -1,25 +1,18 @@
-body{
+body {
     margin: 0;
-    background-image: url(/image/download.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-
+    background-color: bisque;
 }
 
-.nav{
-    /* height: 100px; */
-    
-}
-.menu{
+.menu {
     padding: 20px;
     display: block;
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: rgba(255, 255, 0, 0.329);
-
 }
 
 li {
@@ -33,18 +26,19 @@ a {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-.logo{
+
+.logo {
     padding-left: 50px;
-    
 }
-.container{
+
+.container {
     display: flex;
     text-align: center;
     justify-content: center;
     height: 100vh;
-    
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: center;
     background: black;
